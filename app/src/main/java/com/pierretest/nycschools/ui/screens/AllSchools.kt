@@ -46,7 +46,7 @@ fun AllSchoolsScreen(viewModel: SchoolsViewModel = hiltViewModel()) {
     
     val allSchoolList by viewModel.allSchoolsList.collectAsState()
 
-    
+    //testing
     if (allSchoolList?.isEmpty() == true) {
         Box(
             modifier = Modifier
